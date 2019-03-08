@@ -7,6 +7,7 @@ import NavBar from './Components/Nav/NavBar'
 import Footer from './Components/Footer/Footer'
 import Contacto from './Components/Contacto/Contacto'
 import Proyecto from './Components/Proyectos/Proyectos'
+import Formacion from './Components/Formacion/Formacion'
 
 
 
@@ -24,6 +25,7 @@ class App extends Component {
           <Route exact path='/about' component={About} />
           <Route exact path='/contacto' component={Contacto} />
           <Route exact path='/proyecto' component={Proyecto} />
+          <Route exact path='/formacion' component={Formacion} />
         </Switch>
         <Footer />
       </React.Fragment>

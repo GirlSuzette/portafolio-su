@@ -29,7 +29,7 @@ export default class Footer extends Component {
                                 </Link>
                             </li>
                             <li>
-                                <span>Money Home</span> <a href="https://money-home.netlify.com/" target="_blank"><img src=
+                                <span>Money Home</span> <a href="https://money-home.netlify.com/" target="_blank"><img className="iconNome" src=
                                     {MoneyHome} alt="" /></a>
                             </li>
                             <li>
@@ -41,11 +41,11 @@ export default class Footer extends Component {
                                     {github} alt="" /></a>
                             </li>
                             <li>
-                                <span>#Slack</span> <Link to="#"><img src=
+                                <span>#Slack</span> <Link to="#"><img className="iconNome" src=
                                     {slack} alt="" /></Link>
                             </li>
-                            <li>
-                                <span>Visual Studio Code</span> <Link to="#"><img src=
+                            <li >
+                                <span>Visual Studio Code</span> <Link to="#"><img className="iconNome" src=
                                     {visual} alt="" /></Link>
                             </li>
                             <li>
@@ -53,7 +53,7 @@ export default class Footer extends Component {
                                     {LinkedIn} alt="" /></a>
                             </li>
                             <li>
-                                <span>iTunes</span> <Link to="#"><img src=
+                                <span>iTunes</span> <Link to="#"><img className="iconNome" src=
                                     "https://forums.macrumors.com/attachments/itunes-1024x1024-png.565323/" alt="" /></Link>
                             </li>
                         </ul>

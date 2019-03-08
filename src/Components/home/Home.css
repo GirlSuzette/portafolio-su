@@ -90,7 +90,11 @@ body {
 	border-radius:50%;
 	z-index:999;
 	animation:  rotation 10s infinite linear;
-	}
+  }
+  
+  li.iconNome{
+    display: block;
+  }
 
 @-webkit-keyframes rotation {
 		from {
@@ -101,7 +105,28 @@ body {
 		}
 }
 
+@media screen and (max-width: 360px){
+ 
+#container li img {
+  width: 30px;
+  height: 30px;
+}
+.Follow {
+  bottom: 473px;
+}
+
+li.iconNome{
+  display: none
+}
+
+#container li img.iconNome{
+display: none
+}
+#container {
+  left: 6%;
+  padding-right: 30px;
+}
 
 
-
+}
 

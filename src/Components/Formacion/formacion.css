@@ -1,0 +1,43 @@
+.pdfDesc{
+    position: absolute;
+    left: 268px;
+    top: 113px;
+    padding: 10px;
+    background-color: darkseagreen;
+}
+
+.imgCv{
+    position: absolute;
+    left: 490px;
+    top: 115px;
+}
+
+.imgCv img{
+    width: 80%;
+}
+
+.containerPdf{
+   height: 130vh;
+}
+
+@media screen and (max-width: 360px){
+    .pdfDesc{
+        position: absolute;
+        left: 20px;
+        top: 92px;
+        padding: 10px;
+        background-color: darkseagreen;
+    }
+    
+    .imgCv{
+        position: absolute;
+        left: 37px;
+        top: 155px;
+    }
+    
+    .imgCv img{
+        width: 281px;
+        height: 385px;
+    }
+
+}
