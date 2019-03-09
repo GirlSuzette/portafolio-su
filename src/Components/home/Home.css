@@ -102,7 +102,11 @@ body {
 				-webkit-transform: rotate(359deg);
 		}
 }
-
+@media screen and (max-width: 768px){
+  .Follow {
+    bottom: 113px;
+  }
+}
 @media screen and (max-width: 360px){
  
 #container li img {
@@ -110,7 +114,7 @@ body {
   height: 30px;
 }
 .Follow {
-  bottom: 427px;
+  bottom: 476px;
 }
 
 li.iconNome{
@@ -128,3 +132,8 @@ display: none
 
 }
 
+@media screen and (max-width: 320px){
+  .Follow {
+    bottom: 87px;
+  }
+}
