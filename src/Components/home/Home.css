@@ -92,9 +92,7 @@ body {
 	animation:  rotation 10s infinite linear;
   }
   
-  li.iconNome{
-    display: block;
-  }
+  
 
 @-webkit-keyframes rotation {
 		from {

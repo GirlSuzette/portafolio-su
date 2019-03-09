@@ -22,15 +22,11 @@
 
 @media screen and (max-width: 360px){
     .pdfDesc{
-        position: absolute;
         left: 20px;
         top: 92px;
-        padding: 10px;
-        background-color: darkseagreen;
     }
     
     .imgCv{
-        position: absolute;
         left: 37px;
         top: 155px;
     }
@@ -40,4 +36,26 @@
         height: 385px;
     }
 
+}
+
+@media screen and (max-width: 320px){
+    .imgCv{
+        left: 18px;
+        top: 140px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .pdfDesc{
+        left: 39px;
+        top: 92px;
+    }
+    .imgCv {
+        left: 38px;
+        top: 169px;
+    }
+
+    .imgCv img{
+        width: 90%;
+    }
 }

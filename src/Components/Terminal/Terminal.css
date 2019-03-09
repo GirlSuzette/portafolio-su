@@ -221,39 +221,33 @@
      }
    }
 
+   .contTerm{
+      margin-left: 6px;
+
+   }
   
+   p.textleft1{
+    left: 44%;
+ }
+
+ @media screen and (max-width: 768px){
+
+ }
+
+
 
    @media screen and (max-width: 360px){
+   
     .fakeMenu {
       width: 337px;
-      box-sizing: border-box;
-      height: 25px;
-      background-color: #bbb;
-      margin: 0 auto;
-      border-top-right-radius: 5px;
-      border-top-left-radius: 5px;
     }
     
     .fakeScreen {
-      background-color: #151515;
-      box-sizing: border-box;
       width: 337px;
-      margin: 0 auto;
-      padding: 53px;
-      border-bottom-left-radius: 5px;
-      border-bottom-right-radius: 5px;
     }
     
     p {
-      position: relative;
-      margin-left: -8.5em;
-      text-align: left;
-      font-size: 1.25em;
-      font-family: monospace;
-      white-space: nowrap;
-      overflow: hidden;
-      width: 0;
-      left: 42%;
+      left: 41%;
     }
 
     .cantainerCon {
@@ -264,5 +258,41 @@
       position: absolute;
       right: 10px;
     }
+    .contTerm{
+      margin-left: 0px;
+   }
     
+}
+
+@media screen and (max-width: 320px){
+ 
+  .fakeMenu {
+    width: 337px;
+  }
+
+  .fakeScreen {
+    width: 337px;
+  }
+  
+  p {
+    left: 42%;
+  }
+
+  .cantainerCon {
+    padding-top: 80px;
+  }
+
+  .iconBateria{
+    position: absolute;
+    right: 35px;
+    top: 38px;
+  }
+
+  .cantainerCon {
+    padding-left: 21px;
+}
+p.textleft1{
+   left: 33%;
+    font-size: 1.00em;
+}
 }
