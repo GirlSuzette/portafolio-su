@@ -230,9 +230,7 @@
     left: 44%;
  }
 
- @media screen and (max-width: 768px){
-
- }
+ 
 
 
 
@@ -256,7 +254,8 @@
 
     .iconBateria{
       position: absolute;
-      right: 10px;
+      right: 54px;
+      top: 117px;
     }
     .contTerm{
       margin-left: 0px;
@@ -284,8 +283,8 @@
 
   .iconBateria{
     position: absolute;
-    right: 35px;
-    top: 38px;
+    right: 54px;
+    top: 117px;
   }
 
   .cantainerCon {
