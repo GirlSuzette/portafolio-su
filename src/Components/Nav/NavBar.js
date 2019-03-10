@@ -60,7 +60,7 @@ export default class NavBar extends Component {
                   </ul>
                 </div>
               </li>
-              <li className="iconBateria"><i class="fa fa-battery-half" aria-hidden="true"></i>
+              <li className="iconBateria iconNome"><i class="fa fa-battery-half" aria-hidden="true"></i>
 
                 <div class="submenu">
                   <ul>

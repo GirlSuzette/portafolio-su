@@ -23,7 +23,7 @@
 @media screen and (max-width: 360px){
     .pdfDesc{
         left: 20px;
-        top: 92px;
+        top: 53px;
     }
     
     .imgCv{
@@ -48,12 +48,12 @@
 @media screen and (max-width: 768px){
     .pdfDesc{
         left: 39px;
-        top: 92px;
+        top: 53px;
     }
     .imgCv {
         left: 38px;
-        top: 169px;
-    }
+        top: 114px;
+        }
 
     .imgCv img{
         width: 90%;
